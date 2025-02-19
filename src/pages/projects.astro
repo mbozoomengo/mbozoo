@@ -3,49 +3,50 @@ import BaseLayout from "../layouts/BaseLayout.astro";
 import HorizontalCard from "../components/HorizontalCard.astro";
 ---
 
-<BaseLayout title = "Projects" sideBarActiveItemID="projects">
+<BaseLayout title="Projects" sideBarActiveItemID="projects">
   <div>
-    <div class="text-3xl w-full font-bold mb-5">Projects Header</div>
+    <div class="text-3xl w-full font-bold mb-5">My Projects</div>
   </div>
 
   <HorizontalCard
-    title="Demo Project 1"
-    img="/post_img.webp"
-    desc="Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
-    url="#"
+    title="Plagiarism Detection System"
+    img="/plagiarism_detection_project_img.webp"
+    desc="A project focused on developing a plagiarism detection system using advanced algorithms for text similarity comparison. Built with Spring Boot and MySQL, aiming for high accuracy and scalability."
+    url="/projects/plagiarism-detection"
     badge="NEW"
   />
   <div class="divider my-0"></div>
   <HorizontalCard
-    title="Demo Project 2"
-    img="/post_img.webp"
-    desc="Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
-    url="#"
+    title="House Price Prediction"
+    img="/house_price_prediction_project_img.webp"
+    desc="A Machine Learning project using KNN, Random Forest, and XGBoost to predict house prices. The project focuses on data preprocessing, feature engineering, and model evaluation."
+    url="/projects/house-price-prediction"
   />
 
   <div>
-    <div class="text-3xl w-full font-bold mb-5 mt-10">Projects Header</div>
+    <div class="text-3xl w-full font-bold mb-5 mt-10">Other Projects</div>
   </div>
 
   <HorizontalCard
-    title="Demo Project 3"
-    img="/post_img.webp"
-    desc="Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
-    url="#"
+    title="To-Do List Application"
+    img="/todo_list_project_img.webp"
+    desc="A simple To-Do list application built with Java Spring Boot and Thymeleaf. It integrates MySQL for data storage and provides CRUD operations for task management."
+    url="/projects/todo-list"
     badge="FOSS"
   />
   <div class="divider my-0"></div>
   <HorizontalCard
-    title="Demo Project 4"
-    img="/post_img.webp"
-    desc="Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
-    url="#"
+    title="Personal Portfolio Website"
+    img="/personal_portfolio_project_img.webp"
+    desc="My personal portfolio website showcasing my CV, skills, and projects. Built with Astro, TailwindCSS, and hosted on Vercel, focusing on speed and SEO optimization."
+    url="/projects/personal-portfolio"
   />
   <div class="divider my-0"></div>
   <HorizontalCard
-    title="Demo Project 5"
-    img="/post_img.webp"
-    desc="Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
-    url="#"
+    title="Machine Learning API"
+    img="/machine_learning_api_project_img.webp"
+    desc="An API service for training and evaluating machine learning models. Provides endpoints for data prediction and model evaluation metrics. Built using Flask and Python."
+    url="/projects/ml-api"
   />
 </BaseLayout>
+
